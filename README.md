@@ -1,3 +1,4 @@
+<img width="527" height="717" alt="arquitectura" src="https://github.com/user-attachments/assets/6cb98724-2f1d-4f3f-b757-6c2084568d89" />
 <div align="center">
 
 # Sistema de Automatización Comercial e Inteligencia de Negocios
@@ -22,7 +23,7 @@ Solución orientada a automatizar la presentación comercial personalizada, el e
 ## 02 · Arquitectura funcional
 
 <div align="center">
-<img src="assets/arquitectura.png" width="620" alt="Arquitectura Microsoft 365 con identificadores y logotipos" />
+<img width="527" height="717" alt="arquitectura" src="https://github.com/user-attachments/assets/edf1320d-32ae-4133-a2cb-89ad5f7fa4ed" />
 </div>
 
 ### Secuencia técnica
