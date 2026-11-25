@@ -1,6 +1,3 @@
-<img width="527" height="717" alt="arquitectura" src="https://github.com/user-attachments/assets/6cb98724-2f1d-4f3f-b757-6c2084568d89" />
-<div align="center">
-
 # Sistema de Automatización Comercial e Inteligencia de Negocios
 
 ### Microsoft 365 · Power Platform · Business Intelligence
