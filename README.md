@@ -27,6 +27,7 @@ Solución orientada a automatizar la presentación comercial personalizada, el e
 
 <img width="622" height="752" alt="flujo-real" src="https://github.com/user-attachments/assets/9c7104c2-1f4b-43c1-af9f-fb49f86a6144" />
 
+La captura muestra el desencadenador manual, lectura de Excel, recuperación de archivos, iteración, condición, envío y actualización de fila. El flujo independiente de recordatorio fue descrito por el autor; su condición exacta no se incluye en esta documentación.
 
 ## 03 · Módulos y lógica de negocio
 
@@ -143,14 +144,6 @@ Los envíos diarios de la simulación (65, 95, 110, 80 y 70) suman 420. Los indi
 - Power BI usa actualización programada o bajo demanda; no se garantiza tiempo real. Licencias y permisos dependen del entorno.
 - Alternativas de escalabilidad: SharePoint Lists para gestión colaborativa o SQL Server para persistencia transaccional y mayor volumen. SQL Server local puede requerir gateway; el conector SQL de Power Automate puede requerir licencia premium.
 
-## 09 · Evidencia técnica
-
-<div align="center">
-<img src="assets/flujo-real.png" width="550" alt="Captura real del flujo Power Automate" />
-</div>
-
-La captura muestra el desencadenador manual, lectura de Excel, recuperación de archivos, iteración, condición, envío y actualización de fila. El flujo independiente de recordatorio fue descrito por el autor; su condición exacta no se incluye en esta documentación.
-
-## 10 · Alcance de la demostración
+## 09 · Alcance de la demostración
 
 Los flujos comerciales corresponden al desarrollo descrito por el autor. La arquitectura analítica, las medidas DAX y los gráficos documentan un escenario reproducible con datos ficticios; no son evidencia de una conexión de producción validada ni de resultados comerciales reales. Los identificadores son etiquetas de documentación.
