@@ -25,31 +25,7 @@ Solución orientada a automatizar la presentación comercial personalizada, el e
 
 ### Secuencia técnica
 
-```mermaid
-flowchart TD
- A["PA-01 · Power Automate<br/>Inicio manual"] --> B["EX-01 · Excel Online<br/>Leer tabla de clientes"]
- B --> C["OD-01 · OneDrive<br/>Recuperar portafolio corporativo"]
- C --> D["PA-02 · Aplicar a cada registro"]
- D --> E{"PA-03 · ¿Pendiente de envío?"}
- E -->|Sí| F["OL-01 · Outlook<br/>Correo personalizado"]
- F --> G["EX-02 · Excel Online<br/>Actualizar estado y fecha"]
- E -->|No| H["PA-04 · Omitir registro"]
- G --> I["PA-05 · Siguiente registro"]
- H --> I
- I -->|Más registros| D
- I -->|Fin| J["EX-03 · Registro de campaña"]
- J --> K["FLOW-02 · Seguimiento comercial"]
- J -.-> L["BI-01 · Power BI<br/>Modelo semántico y dashboard"]
- K -.-> L
- classDef pa fill:#0066cc,color:#fff,stroke:#004c99;
- classDef ex fill:#217346,color:#fff,stroke:#14532d;
- classDef od fill:#0078d4,color:#fff,stroke:#005a9e;
- classDef bi fill:#f2c811,color:#171717,stroke:#b99a00;
- class A,D,E,H,I,K pa;
- class B,G,J ex;
- class C,F od;
- class L bi;
-```
+<img width="622" height="752" alt="flujo-real" src="https://github.com/user-attachments/assets/9c7104c2-1f4b-43c1-af9f-fb49f86a6144" />
 
 La línea discontinua representa la transferencia de datos hacia la capa analítica del escenario de demostración. Los identificadores son referencias de documentación, no IDs internos de Microsoft.
 
