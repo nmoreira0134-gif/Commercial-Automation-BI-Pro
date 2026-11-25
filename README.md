@@ -64,19 +64,8 @@ Una fila representa un registro de contacto, no necesariamente una empresa únic
 
 ## 05 · Integración con Power BI
 
-<div align="center">
-<img src="assets/integracion-bi.png" width="560" alt="Cadena de integración Power Automate, Excel, Power Query, DAX y Power BI" />
-</div>
+<img width="415" height="447" alt="integracion-bi" src="https://github.com/user-attachments/assets/d473b9ff-4424-4ba1-973e-39b4f2eeba5d" />
 
-```mermaid
-flowchart LR
- A[Excel Online / OneDrive] --> B[Power Query]
- B --> C[Modelo semántico]
- C --> D[Medidas DAX]
- D --> E[Dashboard comercial]
- F[Power Automate] --> A
- F -. Solicitar actualización .-> C
-```
 
 1. En Power BI Desktop, seleccionar Obtener datos > Carpeta de SharePoint.
 2. Introducir la URL raíz del sitio de OneDrive empresarial o SharePoint, no el enlace de uso compartido del archivo.
