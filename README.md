@@ -27,7 +27,6 @@ Solución orientada a automatizar la presentación comercial personalizada, el e
 
 <img width="622" height="752" alt="flujo-real" src="https://github.com/user-attachments/assets/9c7104c2-1f4b-43c1-af9f-fb49f86a6144" />
 
-La línea discontinua representa la transferencia de datos hacia la capa analítica del escenario de demostración. Los identificadores son referencias de documentación, no IDs internos de Microsoft.
 
 ## 03 · Módulos y lógica de negocio
 
