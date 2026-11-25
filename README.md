@@ -115,18 +115,8 @@ Para analizar envíos diarios, crear una columna de fecha sin hora y relacionarl
 
 ## 07 · Diseño del dashboard
 
-| Visual | Indicador |
-|---|---|
-| Tarjetas KPI | Total, enviados, pendientes, cobertura |
-| Gráfico de anillo | Distribución de estados |
-| Gráfico de columnas | Presentaciones por fecha |
-| Barras horizontales | Recordatorios, respuestas, reuniones y oportunidades |
-| Segmentadores | Fecha, departamento, segmento |
-| Tabla operativa | ITEM, cliente, estado y fechas (solo acceso autorizado) |
+<img width="512" height="989" alt="dashboard" src="https://github.com/user-attachments/assets/600b9065-d41b-4b96-b6a0-cb752bc17e45" />
 
-<div align="center">
-<img src="assets/dashboard.png" width="650" alt="Dashboard comercial con indicadores y gráficos de datos ficticios" />
-</div>
 
 ### Lectura de indicadores — escenario simulado
 
